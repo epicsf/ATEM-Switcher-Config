@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="4" product="ATEM 2 M/E Broadcast Studio 4K">
+    <MixEffectBlocks/>
+    <DownstreamKeys/>
+    <ColorGenerators/>
+    <MediaPlayers/>
+    <MacroPool>
+        <Macro index="0" name="Ctdn - Start Countdn" description="">
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera14"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera14"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="Camera14"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="Camera20"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="HyperDeckRecord" hyperDeckIndex="1"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+        </Macro>
+        <Macro index="1" name="Band - Start Worship" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera11"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="Camera17"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="Camera20"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+        </Macro>
+        <Macro index="2" name="M+G - Start Meet+Grt" description="">
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Black"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+        </Macro>
+        <Macro index="3" name="Band - Second Set" description="">
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+        </Macro>
+        <Macro index="4" name="Bump - Start Bumper" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera14"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera14"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera14"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="1"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+        </Macro>
+        <Macro index="5" name="Msg - Start Message" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera11"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key2"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+        </Macro>
+        <Macro index="6" name="SS+ - Split ON" description="">
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key2"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
+            <Op id="CutTransition" mixEffectBlockIndex="0"/>
+        </Macro>
+        <Macro index="7" name="SS- - Split OFF" description="">
+            <Op id="CutTransition" mixEffectBlockIndex="0"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="8" name="End - Dismissal" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera11"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="Camera17"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+        </Macro>
+        <Macro index="9" name="Rset - Walk In/Out" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera17"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="Camera17"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="Camera17"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera17"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+        </Macro>
+        <Macro index="10" name="BapV -Baptism Video" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera11"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="Camera17"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="Camera20"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera11"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera11"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera11"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+        </Macro>
+        <Macro index="11" name="Bap+ -Baptism Start" description="">
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Black"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Black"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera20"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="Camera17"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="Camera20"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera4"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+        </Macro>
+        <Macro index="12" name="Bap- - Baptism End" description="">
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera11"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+        </Macro>
+        <Macro index="16" name="2Rst - Cam 2 Reset" description="">
+            <Op id="CameraControlByte" address="2" category="1" parameter="1" action="Set" values="8"/>
+            <Op id="CameraControl16Bit" address="2" category="1" parameter="2" action="Set" values="3600"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="0" action="Set" values="0.899902"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="3" action="Set" values="0.151855"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="1" action="Set" values="0, 0, 0, 0.410156"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="2" action="Set" values="1.06055, 1.05273, 1.00195, 1"/>
+        </Macro>
+        <Macro index="17" name="2Msg - Cam 2 Mssage" description="">
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="0" action="Set" values="0.879883"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="3" action="Set" values="0.186523"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
+        </Macro>
+        <Macro index="18" name="2Bnd - Cam 2 Worshp" description="">
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="0" action="Set" values="0.899902"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="3" action="Set" values="0.151855"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
+        </Macro>
+        <Macro index="19" name="Init - Startup Tasks" description="Runs &quot;Standard Split-Screen&quot; and &quot;Cam 2 Reset&quot;">
+            <Op id="CameraControlByte" address="2" category="1" parameter="1" action="Set" values="8"/>
+            <Op id="CameraControl16Bit" address="2" category="1" parameter="2" action="Set" values="3600"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="0" action="Set" values="0.899902"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="3" action="Set" values="0.151855"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="1" action="Set" values="0, 0, 0, 0.410156"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="2" action="Set" values="1.06055, 1.05273, 1.00195, 1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="3" enable="True"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="3" enable="False"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxInput" boxIndex="0" input="Camera1"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="0" xPosition="-10.45"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="0" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="0" size="0.649994"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxMaskLeft" boxIndex="0" left="8.14999"/>
+            <Op id="SuperSourceBoxMaskTop" boxIndex="0" top="0"/>
+            <Op id="SuperSourceBoxMaskRight" boxIndex="0" right="8.14999"/>
+            <Op id="SuperSourceBoxMaskBottom" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxInput" boxIndex="1" input="Camera11"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="1" xPosition="5.2"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="1" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="1" size="0.649994"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="1" enable="False"/>
+        </Macro>
+        <Macro index="20" name="Reset (Cam + Slides)" description="">
+            <Op id="ProgramInput" mixEffectBlockIndex="1" input="Camera11"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera11"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="Camera11"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="Camera11"/>
+        </Macro>
+        <Macro index="21" name="Talk/Sing (All-Cam)" description="">
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+        </Macro>
+        <Macro index="23" name="Pray (All Slides)" description="">
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera11"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera11"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+        </Macro>
+        <Macro index="80" name="Standard SuperSource" description="Cam 1 + Gfx Live">
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="3" enable="True"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="3" enable="False"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxInput" boxIndex="0" input="Camera1"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="0" xPosition="-10.45"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="0" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="0" size="0.649994"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxMaskLeft" boxIndex="0" left="8.14999"/>
+            <Op id="SuperSourceBoxMaskTop" boxIndex="0" top="0"/>
+            <Op id="SuperSourceBoxMaskRight" boxIndex="0" right="8.14999"/>
+            <Op id="SuperSourceBoxMaskBottom" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxInput" boxIndex="1" input="Camera11"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="1" xPosition="5.2"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="1" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="1" size="0.649994"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="1" enable="False"/>
+        </Macro>
+    </MacroPool>
+    <MacroControl loop="False"/>
+</Profile>
