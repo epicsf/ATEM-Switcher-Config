@@ -405,8 +405,8 @@
             <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="0" action="Set" values="0.899902"/>
             <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="3" action="Set" values="0.0795898"/>
             <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
-            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="1" action="Set" values="0, 0, 0, 0.410156"/>
-            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="2" action="Set" values="1.06055, 1.05273, 1.00195, 1"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="1" action="Set" values="0, 0, 0, 0"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="2" action="Set" values="0.96, 1.05273, 1.13, 1"/>
             <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
             <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
             <Op id="SuperSourceBoxEnable" boxIndex="2" enable="True"/>
