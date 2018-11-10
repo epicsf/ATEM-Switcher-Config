@@ -54,7 +54,7 @@
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
-        <Macro index="1" name="Band - First Song" description="">
+        <Macro index="1" name="Band - Worship" description="">
             <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
             <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
             <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
@@ -76,30 +76,6 @@
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
-            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
-        </Macro>
-        <Macro index="2" name="M+G - Start Meet+Grt" description="">
-            <Op id="TransitionDipRate" mixEffectBlockIndex="3" rate="30"/>
-            <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
-            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
-            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
-            <Op id="TransitionMixRate" mixEffectBlockIndex="3" rate="15"/>
-            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
-            <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
-            <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="15"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Black"/>
-            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
-            <Op id="MacroSleep" frames="16"/>
-            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
-        </Macro>
-        <Macro index="3" name="Band - Worship" description="">
-            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
-            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
-            <Op id="MacroSleep" frames="31"/>
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
