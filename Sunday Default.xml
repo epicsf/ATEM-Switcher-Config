@@ -346,6 +346,7 @@
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="4"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="MacroSleep" frames="1"/>
