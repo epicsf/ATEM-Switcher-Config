@@ -38,6 +38,12 @@
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="ME3Program"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME3Program"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="14"/>
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
@@ -45,12 +51,7 @@
             <Op id="HyperDeckRecord" hyperDeckIndex="2"/>
             <Op id="MacroSleep" frames="1"/>
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
-            <Op id="MacroSleep" frames="15"/>
-            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="ME3Program"/>
-            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME3Program"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MacroSleep" frames="31"/>
+            <Op id="MacroSleep" frames="16"/>
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
@@ -125,16 +126,17 @@
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="14"/>
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="1"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="MacroSleep" frames="1"/>
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
-            <Op id="MacroSleep" frames="1"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
-            <Op id="MacroSleep" frames="31"/>
+            <Op id="MacroSleep" frames="16"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
@@ -346,16 +348,17 @@
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="14"/>
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="4"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="MacroSleep" frames="1"/>
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
-            <Op id="MacroSleep" frames="1"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
-            <Op id="MacroSleep" frames="31"/>
+            <Op id="MacroSleep" frames="16"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
