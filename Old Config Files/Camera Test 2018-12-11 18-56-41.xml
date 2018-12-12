@@ -17,6 +17,264 @@
     <DownstreamKeys/>
     <ColorGenerators/>
     <MediaPlayers/>
+    <CameraControl>
+        <Parameter device="1" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="1" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="1" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="1" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="1" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="1" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="1" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="1" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="1" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="1" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="1" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="1" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="2" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="2" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="2" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="2" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="2" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="2" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="2" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="2" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="2" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="2" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="2" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="2" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="3" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="3" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="3" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="3" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="3" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="3" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="3" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="3" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="3" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="3" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="3" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="3" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="4" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="4" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="4" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="4" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="4" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="4" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="4" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="4" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="4" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="4" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="4" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="4" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="5" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="5" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="5" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="5" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="5" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="5" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="5" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="5" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="5" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="5" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="5" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="5" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="6" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="6" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="6" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="6" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="6" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="6" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="6" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="6" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="6" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="6" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="6" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="6" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="9" category="Lens" parameter="ApertureNormalised" value="0.07958984375"/>
+        <Parameter device="9" category="Video" parameter="ManualWhiteBalance" value="3400"/>
+        <Parameter device="9" category="Video" parameter="Exposure" value="16667"/>
+        <Parameter device="9" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="9" category="Video" parameter="SensorGainInDecibels" value="12"/>
+        <Parameter device="9" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="9" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="9" category="ColorCorrection" parameter="GainAdjust" red="0.9599609375" green="1.052734375" blue="1.1298828125" luma="1"/>
+        <Parameter device="9" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="9" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="9" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="9" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="10" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="10" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="10" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="10" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="10" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="10" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="10" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="10" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="10" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="10" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="10" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="10" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="11" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="11" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="11" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="11" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="11" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="11" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="11" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="11" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="11" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="11" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="11" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="11" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="12" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="12" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="12" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="12" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="12" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="12" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="12" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="12" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="12" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="12" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="12" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="12" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="13" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="13" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="13" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="13" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="13" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="13" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="13" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="13" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="13" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="13" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="13" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="13" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="14" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="14" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="14" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="14" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="14" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="14" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="14" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="14" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="14" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="14" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="14" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="14" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="15" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="15" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="15" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="15" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="15" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="15" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="15" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="15" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="15" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="15" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="15" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="15" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="16" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="16" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="16" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="16" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="16" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="16" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="16" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="16" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="16" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="16" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="16" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="16" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="17" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="17" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="17" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="17" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="17" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="17" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="17" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="17" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="17" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="17" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="17" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="17" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="18" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="18" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="18" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="18" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="18" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="18" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="18" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="18" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="18" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="18" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="18" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="18" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="19" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="19" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="19" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="19" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="19" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="19" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="19" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="19" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="19" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="19" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="19" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="19" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Parameter device="20" category="Lens" parameter="ApertureNormalised" value="0.5"/>
+        <Parameter device="20" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="20" category="Video" parameter="Exposure" value="20000"/>
+        <Parameter device="20" category="Video" parameter="DetailLevel" value="1"/>
+        <Parameter device="20" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="20" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="20" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="20" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
+        <Parameter device="20" category="ColorCorrection" parameter="OffsetAdjust" red="0" green="0" blue="0" luma="0"/>
+        <Parameter device="20" category="ColorCorrection" parameter="ContrastAdjust" pivot="0.5" adjust="1"/>
+        <Parameter device="20" category="ColorCorrection" parameter="LumaMix" value="1"/>
+        <Parameter device="20" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
+        <Property device="1" property="ApertureCoarse" value="1"/>
+        <Property device="1" property="Locked" value="False"/>
+        <Property device="2" property="ApertureCoarse" value="1"/>
+        <Property device="2" property="Locked" value="False"/>
+        <Property device="3" property="ApertureCoarse" value="1"/>
+        <Property device="3" property="Locked" value="False"/>
+        <Property device="4" property="ApertureCoarse" value="1"/>
+        <Property device="4" property="Locked" value="False"/>
+        <Property device="5" property="ApertureCoarse" value="1"/>
+        <Property device="5" property="Locked" value="False"/>
+        <Property device="6" property="ApertureCoarse" value="1"/>
+        <Property device="6" property="Locked" value="False"/>
+        <Property device="7" property="ApertureCoarse" value="1"/>
+        <Property device="7" property="Locked" value="False"/>
+        <Property device="8" property="ApertureCoarse" value="1"/>
+        <Property device="8" property="Locked" value="False"/>
+        <Property device="9" property="ApertureCoarse" value="1"/>
+        <Property device="9" property="Locked" value="False"/>
+        <Property device="10" property="ApertureCoarse" value="1"/>
+        <Property device="10" property="Locked" value="False"/>
+        <Property device="11" property="ApertureCoarse" value="1"/>
+        <Property device="11" property="Locked" value="False"/>
+        <Property device="12" property="ApertureCoarse" value="1"/>
+        <Property device="12" property="Locked" value="False"/>
+        <Property device="13" property="ApertureCoarse" value="1"/>
+        <Property device="13" property="Locked" value="False"/>
+        <Property device="14" property="ApertureCoarse" value="1"/>
+        <Property device="14" property="Locked" value="False"/>
+        <Property device="15" property="ApertureCoarse" value="1"/>
+        <Property device="15" property="Locked" value="False"/>
+        <Property device="16" property="ApertureCoarse" value="1"/>
+        <Property device="16" property="Locked" value="False"/>
+        <Property device="17" property="ApertureCoarse" value="1"/>
+        <Property device="17" property="Locked" value="False"/>
+        <Property device="18" property="ApertureCoarse" value="1"/>
+        <Property device="18" property="Locked" value="False"/>
+        <Property device="19" property="ApertureCoarse" value="1"/>
+        <Property device="19" property="Locked" value="False"/>
+        <Property device="20" property="ApertureCoarse" value="1"/>
+        <Property device="20" property="Locked" value="False"/>
+    </CameraControl>
     <MacroPool>
         <Macro index="0" name="Ctdn - Start Countdn" description="">
             <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
@@ -402,13 +660,12 @@
         <Macro index="19" name="Init - Startup Tasks" description="Runs &quot;Standard Split-Screen&quot; and &quot;Cam 2 Reset&quot;">
             <Op id="CameraControlByte" address="9" category="1" parameter="1" action="Set" values="8"/>
             <Op id="CameraControlByte" address="9" category="1" parameter="13" action="Set" values="12"/>
-            <Op id="CameraControl32Bit" address="9" category="1" parameter="5" action="Set" values="16667"/>
             <Op id="CameraControl16Bit" address="9" category="1" parameter="2" action="Set" values="3400"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.899902"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.0795898"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="1" action="Set" values="0, 0, 0, 0"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="2" action="Set" values="0.96, 1.05273, 1.13, 1"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="2" action="Set" values="0.959961, 1.05273, 1.12988, 1"/>
             <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
             <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
             <Op id="SuperSourceBoxEnable" boxIndex="2" enable="True"/>
@@ -454,6 +711,12 @@
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+        </Macro>
+        <Macro index="24" name="Camera Test" description="">
+            <Op id="CameraControlByte" address="9" category="1" parameter="13" action="Set" values="12"/>
+            <Op id="CameraControlByte" address="9" category="1" parameter="1" action="Set" values="8"/>
+            <Op id="CameraControl32Bit" address="9" category="1" parameter="5" action="Set" values="16667"/>
+            <Op id="CameraControl16Bit" address="9" category="1" parameter="2" action="Set" values="3400"/>
         </Macro>
         <Macro index="80" name="Standard SuperSource" description="Cam 1 + Gfx Live">
             <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
