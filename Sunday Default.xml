@@ -64,6 +64,8 @@
             <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
@@ -92,8 +94,10 @@
             <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
             <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="15"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Black"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="MacroSleep" frames="16"/>
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
@@ -121,6 +125,7 @@
             <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
@@ -132,6 +137,7 @@
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="MacroSleep" frames="15"/>
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="1"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
@@ -189,6 +195,12 @@
         <Macro index="9" name="Rset - Walk In/Out" description="">
             <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="10"/>
             <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="MediaPlayerSourceClipIndex" mediaPlayer="3" index="0"/>
+            <Op id="MediaPlayerSourceClip" mediaPlayer="3"/>
+            <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
+            <Op id="MediaPlayerPlay" mediaPlayer="3"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="True"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="2" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="1" onAir="False"/>
@@ -409,6 +421,10 @@
             <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
         </Macro>
         <Macro index="19" name="Init - Startup Tasks" description="Runs &quot;Standard Split-Screen&quot; and &quot;Cam 2 Reset&quot;">
+            <Op id="MediaPlayerSourceClipIndex" mediaPlayer="3" index="0"/>
+            <Op id="MediaPlayerSourceClip" mediaPlayer="3"/>
+            <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
+            <Op id="MediaPlayerPlay" mediaPlayer="3"/>
             <Op id="CameraControlByte" address="9" category="1" parameter="1" action="Set" values="8"/>
             <Op id="CameraControlByte" address="9" category="1" parameter="13" action="Set" values="12"/>
             <Op id="CameraControl32Bit" address="9" category="1" parameter="5" action="Set" values="16667"/>
