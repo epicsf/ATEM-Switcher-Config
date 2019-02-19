@@ -576,25 +576,25 @@
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
         <Macro index="17" name="2Msg - Cam 2 Mssage" description="">
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.879883"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.0645898"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.89"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.23974609375"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
         </Macro>
         <Macro index="18" name="2Bnd - Cam 2 Worshp" description="">
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.899902"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.0795898"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.90"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.22474609375"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
         </Macro>
         <Macro index="19" name="Init - Startup Tasks" description="Runs &quot;Standard Split-Screen&quot; and &quot;Cam 2 Reset&quot;">
             <!-- Set Default Camera 9 Settings -->
             <Op id="CameraControlByte" address="9" category="1" parameter="1" action="Set" values="8"/>
-            <Op id="CameraControlByte" address="9" category="1" parameter="13" action="Set" values="12"/>
+            <Op id="CameraControlByte" address="9" category="1" parameter="13" action="Set" values="18"/>
             <Op id="CameraControl32Bit" address="9" category="1" parameter="5" action="Set" values="16667"/>
             <Op id="CameraControl16Bit" address="9" category="1" parameter="2" action="Set" values="3400"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.0795898"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.23974609375"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="1" action="Set" values="0, 0, 0, 0"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.899902"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.90"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="2" action="Set" values="0.96, 1.05273, 1.13, 1"/>
             <!-- Reset Supersource Settings -->
             <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
