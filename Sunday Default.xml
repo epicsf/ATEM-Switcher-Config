@@ -575,15 +575,11 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="17" name="2Msg - Cam 2 Mssage" description="">
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.89"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.23974609375"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
+        <Macro index="17" name="Focus 9 Fine Near" description="">
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="-0.01"/>
         </Macro>
-        <Macro index="18" name="2Bnd - Cam 2 Worshp" description="">
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.90"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.22474609375"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
+        <Macro index="18" name="Focus 9 Fine Far" description="">
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="0.01"/>
         </Macro>
         <Macro index="19" name="Init - Startup Tasks" description="Runs &quot;Standard Split-Screen&quot; and &quot;Cam 2 Reset&quot;">
             <!-- Set Default Camera 9 Settings -->
@@ -591,10 +587,10 @@
             <Op id="CameraControlByte" address="9" category="1" parameter="13" action="Set" values="18"/>
             <Op id="CameraControl32Bit" address="9" category="1" parameter="5" action="Set" values="16667"/>
             <Op id="CameraControl16Bit" address="9" category="1" parameter="2" action="Set" values="3400"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.23974609375"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.20"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="1" action="Set" values="0, 0, 0, 0"/>
-            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.90"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.89"/>
             <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="2" action="Set" values="0.96, 1.05273, 1.13, 1"/>
             <!-- Reset Supersource Settings -->
             <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
@@ -623,6 +619,10 @@
             <Op id="SuperSourceBoxYPosition" boxIndex="1" yPosition="0"/>
             <Op id="SuperSourceBoxSize" boxIndex="1" size="0.649994"/>
             <Op id="SuperSourceBoxMaskEnable" boxIndex="1" enable="False"/>
+            <Op id="MacroSleep" frames="150"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.89"/>
+            <Op id="MacroSleep" frames="150"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.89"/>
         </Macro>
         <Macro index="20" name="Reset (Cam + Slides)" description="">
             <Op id="ProgramInput" mixEffectBlockIndex="1" input="Camera11"/>
@@ -642,6 +642,35 @@
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+        </Macro>
+        <Macro index="24" name="Focus 9 Max Far" description="">
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+            <Op id="MacroSleep" frames="30"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="10"/>
+        </Macro>
+        <Macro index="26" name="Focus 9 Coarse Near" description="">
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="-0.1"/>
+        </Macro>
+        <Macro index="27" name="Focus 9 Coarse Far" description="">
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="0.1"/>
         </Macro>
         <Macro index="80" name="Standard SuperSource" description="Cam 1 + Gfx Live">
             <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
