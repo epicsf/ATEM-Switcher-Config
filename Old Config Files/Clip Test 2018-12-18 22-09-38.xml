@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="4" product="ATEM 4 M/E Broadcast Studio 4K">
+    <MixEffectBlocks>
+        <MixEffectBlock index="0">
+            <Keys/>
+        </MixEffectBlock>
+        <MixEffectBlock index="1">
+            <Keys/>
+        </MixEffectBlock>
+        <MixEffectBlock index="2">
+            <Keys/>
+        </MixEffectBlock>
+        <MixEffectBlock index="3">
+            <Keys/>
+        </MixEffectBlock>
+    </MixEffectBlocks>
+    <DownstreamKeys/>
+    <ColorGenerators/>
+    <MediaPlayers>
+        <MediaPlayer index="3" sourceType="Clip" sourceIndex="0" playing="False" loop="True" atBeginning="False" clipFrame="28"/>
+    </MediaPlayers>
+    <MediaPool>
+        <Stills>
+            <Still index="1" name="Third BG - Generic" path="ATEM Media Pool/Third BG - Generic.png"/>
+            <Still index="2" name="Third BG - Quotes" path="ATEM Media Pool/Third BG - Quotes.png"/>
+            <Still index="4" name="Third - Ben Pilgreen" path="ATEM Media Pool/Third - Ben Pilgreen.png"/>
+            <Still index="5" name="Third - Will Moraza" path="ATEM Media Pool/Third - Will Moraza.png"/>
+            <Still index="8" name="Third - PushPay 3" path="ATEM Media Pool/Third - PushPay 3.png"/>
+            <Still index="9" name="Logo - White on Transparent" path="ATEM Media Pool/Logo - White on Transparent.png"/>
+            <Still index="10" name="Logo - White on 50% Black" path="ATEM Media Pool/Logo - White on 50% Black.png"/>
+            <Still index="11" name="Logo - White on 80% Black" path="ATEM Media Pool/Logo - White on 80% Black.png"/>
+            <Still index="12" name="Logo - White on Black" path="ATEM Media Pool/Logo - White on Black.png"/>
+            <Still index="13" name="Logo - Black on Transparent" path="ATEM Media Pool/Logo - Black on Transparent.png"/>
+            <Still index="14" name="Logo - Black on 50% White" path="ATEM Media Pool/Logo - Black on 50% White.png"/>
+            <Still index="15" name="Logo - Black on 80% White" path="ATEM Media Pool/Logo - Black on 80% White.png"/>
+            <Still index="16" name="Logo - Black on White" path="ATEM Media Pool/Logo - Black on White.png"/>
+            <Still index="29" name="Environmental Projection Mask" path="ATEM Media Pool/Environmental Projection Mask.png"/>
+            <Still index="30" name="Environmental Projection - Christmas At Epic" path="ATEM Media Pool/Environmental Projection - Christmas At Epic.png"/>
+        </Stills>
+        <Clips>
+            <Clip index="0" name="frame-000000 3">
+                <Frame index="0" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0001.png"/>
+                <Frame index="1" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0002.png"/>
+                <Frame index="2" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0003.png"/>
+                <Frame index="3" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0004.png"/>
+                <Frame index="4" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0005.png"/>
+                <Frame index="5" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0006.png"/>
+                <Frame index="6" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0007.png"/>
+                <Frame index="7" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0008.png"/>
+                <Frame index="8" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0009.png"/>
+                <Frame index="9" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0010.png"/>
+                <Frame index="10" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0011.png"/>
+                <Frame index="11" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0012.png"/>
+                <Frame index="12" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0013.png"/>
+                <Frame index="13" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0014.png"/>
+                <Frame index="14" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0015.png"/>
+                <Frame index="15" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0016.png"/>
+                <Frame index="16" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0017.png"/>
+                <Frame index="17" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0018.png"/>
+                <Frame index="18" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0019.png"/>
+                <Frame index="19" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0020.png"/>
+                <Frame index="20" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0021.png"/>
+                <Frame index="21" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0022.png"/>
+                <Frame index="22" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0023.png"/>
+                <Frame index="23" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0024.png"/>
+                <Frame index="24" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0025.png"/>
+                <Frame index="25" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0026.png"/>
+                <Frame index="26" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0027.png"/>
+                <Frame index="27" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0028.png"/>
+                <Frame index="28" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0029.png"/>
+                <Frame index="29" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0030.png"/>
+                <Frame index="30" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0031.png"/>
+                <Frame index="31" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0032.png"/>
+                <Frame index="32" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0033.png"/>
+                <Frame index="33" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0034.png"/>
+                <Frame index="34" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0035.png"/>
+                <Frame index="35" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0036.png"/>
+                <Frame index="36" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0037.png"/>
+                <Frame index="37" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0038.png"/>
+                <Frame index="38" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0039.png"/>
+                <Frame index="39" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0040.png"/>
+                <Frame index="40" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0041.png"/>
+                <Frame index="41" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0042.png"/>
+                <Frame index="42" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0043.png"/>
+                <Frame index="43" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0044.png"/>
+                <Frame index="44" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0045.png"/>
+                <Frame index="45" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0046.png"/>
+                <Frame index="46" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0047.png"/>
+                <Frame index="47" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0048.png"/>
+                <Frame index="48" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0049.png"/>
+                <Frame index="49" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0050.png"/>
+                <Frame index="50" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0051.png"/>
+                <Frame index="51" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0052.png"/>
+                <Frame index="52" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0053.png"/>
+                <Frame index="53" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0054.png"/>
+                <Frame index="54" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0055.png"/>
+                <Frame index="55" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0056.png"/>
+                <Frame index="56" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0057.png"/>
+                <Frame index="57" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0058.png"/>
+                <Frame index="58" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0059.png"/>
+                <Frame index="59" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0060.png"/>
+                <Frame index="60" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0061.png"/>
+                <Frame index="61" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0062.png"/>
+                <Frame index="62" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0063.png"/>
+                <Frame index="63" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0064.png"/>
+                <Frame index="64" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0065.png"/>
+                <Frame index="65" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0066.png"/>
+                <Frame index="66" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0067.png"/>
+                <Frame index="67" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0068.png"/>
+                <Frame index="68" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0069.png"/>
+                <Frame index="69" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0070.png"/>
+                <Frame index="70" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0071.png"/>
+                <Frame index="71" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0072.png"/>
+                <Frame index="72" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0073.png"/>
+                <Frame index="73" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0074.png"/>
+                <Frame index="74" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0075.png"/>
+                <Frame index="75" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0076.png"/>
+                <Frame index="76" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0077.png"/>
+                <Frame index="77" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0078.png"/>
+                <Frame index="78" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0079.png"/>
+                <Frame index="79" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0080.png"/>
+                <Frame index="80" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0081.png"/>
+                <Frame index="81" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0082.png"/>
+                <Frame index="82" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0083.png"/>
+                <Frame index="83" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0084.png"/>
+                <Frame index="84" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0085.png"/>
+                <Frame index="85" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0086.png"/>
+                <Frame index="86" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0087.png"/>
+                <Frame index="87" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0088.png"/>
+                <Frame index="88" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0089.png"/>
+                <Frame index="89" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0090.png"/>
+                <Frame index="90" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0091.png"/>
+                <Frame index="91" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0092.png"/>
+                <Frame index="92" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0093.png"/>
+                <Frame index="93" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0094.png"/>
+                <Frame index="94" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0095.png"/>
+                <Frame index="95" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0096.png"/>
+                <Frame index="96" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0097.png"/>
+                <Frame index="97" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0098.png"/>
+                <Frame index="98" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0099.png"/>
+                <Frame index="99" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0100.png"/>
+                <Frame index="100" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0101.png"/>
+                <Frame index="101" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0102.png"/>
+                <Frame index="102" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0103.png"/>
+                <Frame index="103" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0104.png"/>
+                <Frame index="104" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0105.png"/>
+                <Frame index="105" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0106.png"/>
+                <Frame index="106" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0107.png"/>
+                <Frame index="107" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0108.png"/>
+                <Frame index="108" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0109.png"/>
+                <Frame index="109" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0110.png"/>
+                <Frame index="110" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0111.png"/>
+                <Frame index="111" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0112.png"/>
+                <Frame index="112" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0113.png"/>
+                <Frame index="113" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0114.png"/>
+                <Frame index="114" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0115.png"/>
+                <Frame index="115" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0116.png"/>
+                <Frame index="116" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0117.png"/>
+                <Frame index="117" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0118.png"/>
+                <Frame index="118" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0119.png"/>
+                <Frame index="119" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0120.png"/>
+                <Frame index="120" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0121.png"/>
+                <Frame index="121" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0122.png"/>
+                <Frame index="122" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0123.png"/>
+                <Frame index="123" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0124.png"/>
+                <Frame index="124" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0125.png"/>
+                <Frame index="125" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0126.png"/>
+                <Frame index="126" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0127.png"/>
+                <Frame index="127" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0128.png"/>
+                <Frame index="128" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0129.png"/>
+                <Frame index="129" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0130.png"/>
+                <Frame index="130" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0131.png"/>
+                <Frame index="131" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0132.png"/>
+                <Frame index="132" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0133.png"/>
+                <Frame index="133" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0134.png"/>
+                <Frame index="134" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0135.png"/>
+                <Frame index="135" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0136.png"/>
+                <Frame index="136" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0137.png"/>
+                <Frame index="137" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0138.png"/>
+                <Frame index="138" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0139.png"/>
+                <Frame index="139" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0140.png"/>
+                <Frame index="140" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0141.png"/>
+                <Frame index="141" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0142.png"/>
+                <Frame index="142" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0143.png"/>
+                <Frame index="143" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0144.png"/>
+                <Frame index="144" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0145.png"/>
+                <Frame index="145" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0146.png"/>
+                <Frame index="146" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0147.png"/>
+                <Frame index="147" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0148.png"/>
+                <Frame index="148" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0149.png"/>
+                <Frame index="149" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0150.png"/>
+                <Frame index="150" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0151.png"/>
+                <Frame index="151" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0152.png"/>
+                <Frame index="152" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0153.png"/>
+                <Frame index="153" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0154.png"/>
+                <Frame index="154" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0155.png"/>
+                <Frame index="155" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0156.png"/>
+                <Frame index="156" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0157.png"/>
+                <Frame index="157" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0158.png"/>
+                <Frame index="158" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0159.png"/>
+                <Frame index="159" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0160.png"/>
+                <Frame index="160" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0161.png"/>
+                <Frame index="161" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0162.png"/>
+                <Frame index="162" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0163.png"/>
+                <Frame index="163" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0164.png"/>
+                <Frame index="164" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0165.png"/>
+                <Frame index="165" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0166.png"/>
+                <Frame index="166" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0167.png"/>
+                <Frame index="167" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0168.png"/>
+                <Frame index="168" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0169.png"/>
+                <Frame index="169" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0170.png"/>
+                <Frame index="170" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0171.png"/>
+                <Frame index="171" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0172.png"/>
+                <Frame index="172" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0173.png"/>
+                <Frame index="173" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0174.png"/>
+                <Frame index="174" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0175.png"/>
+                <Frame index="175" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0176.png"/>
+                <Frame index="176" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0177.png"/>
+                <Frame index="177" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0178.png"/>
+                <Frame index="178" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0179.png"/>
+                <Frame index="179" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0180.png"/>
+                <Frame index="180" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0181.png"/>
+                <Frame index="181" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0182.png"/>
+                <Frame index="182" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0183.png"/>
+                <Frame index="183" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0184.png"/>
+                <Frame index="184" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0185.png"/>
+                <Frame index="185" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0186.png"/>
+                <Frame index="186" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0187.png"/>
+                <Frame index="187" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0188.png"/>
+                <Frame index="188" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0189.png"/>
+                <Frame index="189" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0190.png"/>
+                <Frame index="190" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0191.png"/>
+                <Frame index="191" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0192.png"/>
+                <Frame index="192" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0193.png"/>
+                <Frame index="193" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0194.png"/>
+                <Frame index="194" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0195.png"/>
+                <Frame index="195" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0196.png"/>
+                <Frame index="196" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0197.png"/>
+                <Frame index="197" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0198.png"/>
+                <Frame index="198" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0199.png"/>
+                <Frame index="199" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0200.png"/>
+                <Frame index="200" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0201.png"/>
+                <Frame index="201" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0202.png"/>
+                <Frame index="202" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0203.png"/>
+                <Frame index="203" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0204.png"/>
+                <Frame index="204" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0205.png"/>
+                <Frame index="205" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0206.png"/>
+                <Frame index="206" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0207.png"/>
+                <Frame index="207" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0208.png"/>
+                <Frame index="208" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0209.png"/>
+                <Frame index="209" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0210.png"/>
+                <Frame index="210" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0211.png"/>
+                <Frame index="211" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0212.png"/>
+                <Frame index="212" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0213.png"/>
+                <Frame index="213" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0214.png"/>
+                <Frame index="214" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0215.png"/>
+                <Frame index="215" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0216.png"/>
+                <Frame index="216" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0217.png"/>
+                <Frame index="217" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0218.png"/>
+                <Frame index="218" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0219.png"/>
+                <Frame index="219" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0220.png"/>
+                <Frame index="220" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0221.png"/>
+                <Frame index="221" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0222.png"/>
+                <Frame index="222" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0223.png"/>
+                <Frame index="223" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0224.png"/>
+                <Frame index="224" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0225.png"/>
+                <Frame index="225" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0226.png"/>
+                <Frame index="226" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0227.png"/>
+                <Frame index="227" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0228.png"/>
+                <Frame index="228" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0229.png"/>
+                <Frame index="229" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0230.png"/>
+                <Frame index="230" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0231.png"/>
+                <Frame index="231" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0232.png"/>
+                <Frame index="232" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0233.png"/>
+                <Frame index="233" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0234.png"/>
+                <Frame index="234" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0235.png"/>
+                <Frame index="235" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0236.png"/>
+                <Frame index="236" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0237.png"/>
+                <Frame index="237" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0238.png"/>
+                <Frame index="238" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0239.png"/>
+                <Frame index="239" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0240.png"/>
+                <Frame index="240" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0241.png"/>
+                <Frame index="241" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0242.png"/>
+                <Frame index="242" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0243.png"/>
+                <Frame index="243" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0244.png"/>
+                <Frame index="244" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0245.png"/>
+                <Frame index="245" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0246.png"/>
+                <Frame index="246" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0247.png"/>
+                <Frame index="247" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0248.png"/>
+                <Frame index="248" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0249.png"/>
+                <Frame index="249" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0250.png"/>
+                <Frame index="250" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0251.png"/>
+                <Frame index="251" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0252.png"/>
+                <Frame index="252" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0253.png"/>
+                <Frame index="253" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0254.png"/>
+                <Frame index="254" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0255.png"/>
+                <Frame index="255" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0256.png"/>
+                <Frame index="256" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0257.png"/>
+                <Frame index="257" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0258.png"/>
+                <Frame index="258" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0259.png"/>
+                <Frame index="259" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0260.png"/>
+                <Frame index="260" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0261.png"/>
+                <Frame index="261" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0262.png"/>
+                <Frame index="262" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0263.png"/>
+                <Frame index="263" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0264.png"/>
+                <Frame index="264" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0265.png"/>
+                <Frame index="265" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0266.png"/>
+                <Frame index="266" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0267.png"/>
+                <Frame index="267" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0268.png"/>
+                <Frame index="268" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0269.png"/>
+                <Frame index="269" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0270.png"/>
+                <Frame index="270" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0271.png"/>
+                <Frame index="271" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0272.png"/>
+                <Frame index="272" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0273.png"/>
+                <Frame index="273" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0274.png"/>
+                <Frame index="274" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0275.png"/>
+                <Frame index="275" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0276.png"/>
+                <Frame index="276" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0277.png"/>
+                <Frame index="277" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0278.png"/>
+                <Frame index="278" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0279.png"/>
+                <Frame index="279" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0280.png"/>
+                <Frame index="280" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0281.png"/>
+                <Frame index="281" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0282.png"/>
+                <Frame index="282" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0283.png"/>
+                <Frame index="283" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0284.png"/>
+                <Frame index="284" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0285.png"/>
+                <Frame index="285" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0286.png"/>
+                <Frame index="286" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0287.png"/>
+                <Frame index="287" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0288.png"/>
+                <Frame index="288" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0289.png"/>
+                <Frame index="289" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0290.png"/>
+                <Frame index="290" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0291.png"/>
+                <Frame index="291" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0292.png"/>
+                <Frame index="292" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0293.png"/>
+                <Frame index="293" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0294.png"/>
+                <Frame index="294" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0295.png"/>
+                <Frame index="295" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0296.png"/>
+                <Frame index="296" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0297.png"/>
+                <Frame index="297" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0298.png"/>
+                <Frame index="298" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0299.png"/>
+                <Frame index="299" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0300.png"/>
+                <Frame index="300" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0301.png"/>
+                <Frame index="301" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0302.png"/>
+                <Frame index="302" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0303.png"/>
+                <Frame index="303" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0304.png"/>
+                <Frame index="304" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0305.png"/>
+                <Frame index="305" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0306.png"/>
+                <Frame index="306" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0307.png"/>
+                <Frame index="307" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0308.png"/>
+                <Frame index="308" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0309.png"/>
+                <Frame index="309" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0310.png"/>
+                <Frame index="310" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0311.png"/>
+                <Frame index="311" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0312.png"/>
+                <Frame index="312" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0313.png"/>
+                <Frame index="313" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0314.png"/>
+                <Frame index="314" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0315.png"/>
+                <Frame index="315" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0316.png"/>
+                <Frame index="316" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0317.png"/>
+                <Frame index="317" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0318.png"/>
+                <Frame index="318" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0319.png"/>
+                <Frame index="319" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0320.png"/>
+                <Frame index="320" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0321.png"/>
+                <Frame index="321" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0322.png"/>
+                <Frame index="322" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0323.png"/>
+                <Frame index="323" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0324.png"/>
+                <Frame index="324" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0325.png"/>
+                <Frame index="325" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0326.png"/>
+                <Frame index="326" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0327.png"/>
+                <Frame index="327" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0328.png"/>
+                <Frame index="328" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0329.png"/>
+                <Frame index="329" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0330.png"/>
+                <Frame index="330" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0331.png"/>
+                <Frame index="331" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0332.png"/>
+                <Frame index="332" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0333.png"/>
+                <Frame index="333" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0334.png"/>
+                <Frame index="334" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0335.png"/>
+                <Frame index="335" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0336.png"/>
+                <Frame index="336" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0337.png"/>
+                <Frame index="337" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0338.png"/>
+                <Frame index="338" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0339.png"/>
+                <Frame index="339" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0340.png"/>
+                <Frame index="340" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0341.png"/>
+                <Frame index="341" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0342.png"/>
+                <Frame index="342" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0343.png"/>
+                <Frame index="343" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0344.png"/>
+                <Frame index="344" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0345.png"/>
+                <Frame index="345" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0346.png"/>
+                <Frame index="346" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0347.png"/>
+                <Frame index="347" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0348.png"/>
+                <Frame index="348" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0349.png"/>
+                <Frame index="349" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0350.png"/>
+                <Frame index="350" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0351.png"/>
+                <Frame index="351" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0352.png"/>
+                <Frame index="352" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0353.png"/>
+                <Frame index="353" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0354.png"/>
+                <Frame index="354" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0355.png"/>
+                <Frame index="355" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0356.png"/>
+                <Frame index="356" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0357.png"/>
+                <Frame index="357" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0358.png"/>
+                <Frame index="358" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0359.png"/>
+                <Frame index="359" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0360.png"/>
+                <Frame index="360" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0361.png"/>
+                <Frame index="361" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0362.png"/>
+                <Frame index="362" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0363.png"/>
+                <Frame index="363" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0364.png"/>
+                <Frame index="364" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0365.png"/>
+                <Frame index="365" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0366.png"/>
+                <Frame index="366" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0367.png"/>
+                <Frame index="367" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0368.png"/>
+                <Frame index="368" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0369.png"/>
+                <Frame index="369" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0370.png"/>
+                <Frame index="370" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0371.png"/>
+                <Frame index="371" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0372.png"/>
+                <Frame index="372" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0373.png"/>
+                <Frame index="373" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0374.png"/>
+                <Frame index="374" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0375.png"/>
+                <Frame index="375" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0376.png"/>
+                <Frame index="376" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0377.png"/>
+                <Frame index="377" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0378.png"/>
+                <Frame index="378" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0379.png"/>
+                <Frame index="379" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0380.png"/>
+                <Frame index="380" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0381.png"/>
+                <Frame index="381" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0382.png"/>
+                <Frame index="382" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0383.png"/>
+                <Frame index="383" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0384.png"/>
+                <Frame index="384" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0385.png"/>
+                <Frame index="385" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0386.png"/>
+                <Frame index="386" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0387.png"/>
+                <Frame index="387" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0388.png"/>
+                <Frame index="388" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0389.png"/>
+                <Frame index="389" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0390.png"/>
+                <Frame index="390" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0391.png"/>
+                <Frame index="391" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0392.png"/>
+                <Frame index="392" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0393.png"/>
+                <Frame index="393" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0394.png"/>
+                <Frame index="394" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0395.png"/>
+                <Frame index="395" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0396.png"/>
+                <Frame index="396" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0397.png"/>
+                <Frame index="397" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0398.png"/>
+                <Frame index="398" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0399.png"/>
+                <Frame index="399" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0400.png"/>
+                <Frame index="400" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0401.png"/>
+                <Frame index="401" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0402.png"/>
+                <Frame index="402" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0403.png"/>
+                <Frame index="403" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0404.png"/>
+                <Frame index="404" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0405.png"/>
+                <Frame index="405" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0406.png"/>
+                <Frame index="406" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0407.png"/>
+                <Frame index="407" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0408.png"/>
+                <Frame index="408" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0409.png"/>
+                <Frame index="409" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0410.png"/>
+                <Frame index="410" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0411.png"/>
+                <Frame index="411" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0412.png"/>
+                <Frame index="412" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0413.png"/>
+                <Frame index="413" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0414.png"/>
+                <Frame index="414" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0415.png"/>
+                <Frame index="415" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0416.png"/>
+                <Frame index="416" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0417.png"/>
+                <Frame index="417" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0418.png"/>
+                <Frame index="418" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0419.png"/>
+                <Frame index="419" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0420.png"/>
+                <Frame index="420" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0421.png"/>
+                <Frame index="421" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0422.png"/>
+                <Frame index="422" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0423.png"/>
+                <Frame index="423" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0424.png"/>
+                <Frame index="424" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0425.png"/>
+                <Frame index="425" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0426.png"/>
+                <Frame index="426" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0427.png"/>
+                <Frame index="427" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0428.png"/>
+                <Frame index="428" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0429.png"/>
+                <Frame index="429" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0430.png"/>
+                <Frame index="430" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0431.png"/>
+                <Frame index="431" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0432.png"/>
+                <Frame index="432" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0433.png"/>
+                <Frame index="433" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0434.png"/>
+                <Frame index="434" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0435.png"/>
+                <Frame index="435" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0436.png"/>
+                <Frame index="436" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0437.png"/>
+                <Frame index="437" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0438.png"/>
+                <Frame index="438" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0439.png"/>
+                <Frame index="439" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0440.png"/>
+                <Frame index="440" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0441.png"/>
+                <Frame index="441" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0442.png"/>
+                <Frame index="442" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0443.png"/>
+                <Frame index="443" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0444.png"/>
+                <Frame index="444" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0445.png"/>
+                <Frame index="445" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0446.png"/>
+                <Frame index="446" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0447.png"/>
+                <Frame index="447" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0448.png"/>
+                <Frame index="448" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0449.png"/>
+                <Frame index="449" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0450.png"/>
+                <Frame index="450" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0451.png"/>
+                <Frame index="451" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0452.png"/>
+                <Frame index="452" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0453.png"/>
+                <Frame index="453" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0454.png"/>
+                <Frame index="454" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0455.png"/>
+                <Frame index="455" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0456.png"/>
+                <Frame index="456" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0457.png"/>
+                <Frame index="457" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0458.png"/>
+                <Frame index="458" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0459.png"/>
+                <Frame index="459" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0460.png"/>
+                <Frame index="460" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0461.png"/>
+                <Frame index="461" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0462.png"/>
+                <Frame index="462" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0463.png"/>
+                <Frame index="463" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0464.png"/>
+                <Frame index="464" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0465.png"/>
+                <Frame index="465" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0466.png"/>
+                <Frame index="466" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0467.png"/>
+                <Frame index="467" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0468.png"/>
+                <Frame index="468" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0469.png"/>
+                <Frame index="469" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0470.png"/>
+                <Frame index="470" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0471.png"/>
+                <Frame index="471" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0472.png"/>
+                <Frame index="472" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0473.png"/>
+                <Frame index="473" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0474.png"/>
+                <Frame index="474" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0475.png"/>
+                <Frame index="475" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0476.png"/>
+                <Frame index="476" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0477.png"/>
+                <Frame index="477" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0478.png"/>
+                <Frame index="478" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0479.png"/>
+                <Frame index="479" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0480.png"/>
+                <Frame index="480" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0481.png"/>
+                <Frame index="481" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0482.png"/>
+                <Frame index="482" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0483.png"/>
+                <Frame index="483" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0484.png"/>
+                <Frame index="484" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0485.png"/>
+                <Frame index="485" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0486.png"/>
+                <Frame index="486" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0487.png"/>
+                <Frame index="487" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0488.png"/>
+                <Frame index="488" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0489.png"/>
+                <Frame index="489" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0490.png"/>
+                <Frame index="490" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0491.png"/>
+                <Frame index="491" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0492.png"/>
+                <Frame index="492" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0493.png"/>
+                <Frame index="493" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0494.png"/>
+                <Frame index="494" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0495.png"/>
+                <Frame index="495" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0496.png"/>
+                <Frame index="496" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0497.png"/>
+                <Frame index="497" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0498.png"/>
+                <Frame index="498" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0499.png"/>
+                <Frame index="499" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0500.png"/>
+                <Frame index="500" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0501.png"/>
+                <Frame index="501" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0502.png"/>
+                <Frame index="502" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0503.png"/>
+                <Frame index="503" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0504.png"/>
+                <Frame index="504" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0505.png"/>
+                <Frame index="505" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0506.png"/>
+                <Frame index="506" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0507.png"/>
+                <Frame index="507" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0508.png"/>
+                <Frame index="508" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0509.png"/>
+                <Frame index="509" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0510.png"/>
+                <Frame index="510" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0511.png"/>
+                <Frame index="511" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0512.png"/>
+                <Frame index="512" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0513.png"/>
+                <Frame index="513" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0514.png"/>
+                <Frame index="514" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0515.png"/>
+                <Frame index="515" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0516.png"/>
+                <Frame index="516" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0517.png"/>
+                <Frame index="517" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0518.png"/>
+                <Frame index="518" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0519.png"/>
+                <Frame index="519" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0520.png"/>
+                <Frame index="520" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0521.png"/>
+                <Frame index="521" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0522.png"/>
+                <Frame index="522" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0523.png"/>
+                <Frame index="523" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0524.png"/>
+                <Frame index="524" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0525.png"/>
+                <Frame index="525" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0526.png"/>
+                <Frame index="526" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0527.png"/>
+                <Frame index="527" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0528.png"/>
+                <Frame index="528" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0529.png"/>
+                <Frame index="529" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0530.png"/>
+                <Frame index="530" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0531.png"/>
+                <Frame index="531" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0532.png"/>
+                <Frame index="532" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0533.png"/>
+                <Frame index="533" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0534.png"/>
+                <Frame index="534" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0535.png"/>
+                <Frame index="535" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0536.png"/>
+                <Frame index="536" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0537.png"/>
+                <Frame index="537" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0538.png"/>
+                <Frame index="538" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0539.png"/>
+                <Frame index="539" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0540.png"/>
+                <Frame index="540" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0541.png"/>
+                <Frame index="541" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0542.png"/>
+                <Frame index="542" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0543.png"/>
+                <Frame index="543" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0544.png"/>
+                <Frame index="544" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0545.png"/>
+                <Frame index="545" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0546.png"/>
+                <Frame index="546" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0547.png"/>
+                <Frame index="547" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0548.png"/>
+                <Frame index="548" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0549.png"/>
+                <Frame index="549" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0550.png"/>
+                <Frame index="550" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0551.png"/>
+                <Frame index="551" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0552.png"/>
+                <Frame index="552" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0553.png"/>
+                <Frame index="553" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0554.png"/>
+                <Frame index="554" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0555.png"/>
+                <Frame index="555" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0556.png"/>
+                <Frame index="556" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0557.png"/>
+                <Frame index="557" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0558.png"/>
+                <Frame index="558" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0559.png"/>
+                <Frame index="559" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0560.png"/>
+                <Frame index="560" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0561.png"/>
+                <Frame index="561" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0562.png"/>
+                <Frame index="562" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0563.png"/>
+                <Frame index="563" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0564.png"/>
+                <Frame index="564" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0565.png"/>
+                <Frame index="565" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0566.png"/>
+                <Frame index="566" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0567.png"/>
+                <Frame index="567" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0568.png"/>
+                <Frame index="568" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0569.png"/>
+                <Frame index="569" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0570.png"/>
+                <Frame index="570" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0571.png"/>
+                <Frame index="571" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0572.png"/>
+                <Frame index="572" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0573.png"/>
+                <Frame index="573" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0574.png"/>
+                <Frame index="574" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0575.png"/>
+                <Frame index="575" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0576.png"/>
+                <Frame index="576" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0577.png"/>
+                <Frame index="577" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0578.png"/>
+                <Frame index="578" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0579.png"/>
+                <Frame index="579" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0580.png"/>
+                <Frame index="580" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0581.png"/>
+                <Frame index="581" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0582.png"/>
+                <Frame index="582" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0583.png"/>
+                <Frame index="583" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0584.png"/>
+                <Frame index="584" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0585.png"/>
+                <Frame index="585" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0586.png"/>
+                <Frame index="586" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0587.png"/>
+                <Frame index="587" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0588.png"/>
+                <Frame index="588" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0589.png"/>
+                <Frame index="589" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0590.png"/>
+                <Frame index="590" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0591.png"/>
+                <Frame index="591" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0592.png"/>
+                <Frame index="592" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0593.png"/>
+                <Frame index="593" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0594.png"/>
+                <Frame index="594" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0595.png"/>
+                <Frame index="595" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0596.png"/>
+                <Frame index="596" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0597.png"/>
+                <Frame index="597" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0598.png"/>
+                <Frame index="598" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0599.png"/>
+                <Frame index="599" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0600.png"/>
+                <Frame index="600" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0601.png"/>
+                <Frame index="601" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0602.png"/>
+                <Frame index="602" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0603.png"/>
+                <Frame index="603" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0604.png"/>
+                <Frame index="604" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0605.png"/>
+                <Frame index="605" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0606.png"/>
+                <Frame index="606" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0607.png"/>
+                <Frame index="607" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0608.png"/>
+                <Frame index="608" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0609.png"/>
+                <Frame index="609" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0610.png"/>
+                <Frame index="610" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0611.png"/>
+                <Frame index="611" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0612.png"/>
+                <Frame index="612" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0613.png"/>
+                <Frame index="613" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0614.png"/>
+                <Frame index="614" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0615.png"/>
+                <Frame index="615" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0616.png"/>
+                <Frame index="616" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0617.png"/>
+                <Frame index="617" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0618.png"/>
+                <Frame index="618" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0619.png"/>
+                <Frame index="619" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0620.png"/>
+                <Frame index="620" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0621.png"/>
+                <Frame index="621" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0622.png"/>
+                <Frame index="622" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0623.png"/>
+                <Frame index="623" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0624.png"/>
+                <Frame index="624" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0625.png"/>
+                <Frame index="625" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0626.png"/>
+                <Frame index="626" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0627.png"/>
+                <Frame index="627" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0628.png"/>
+                <Frame index="628" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0629.png"/>
+                <Frame index="629" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0630.png"/>
+                <Frame index="630" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0631.png"/>
+                <Frame index="631" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0632.png"/>
+                <Frame index="632" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0633.png"/>
+                <Frame index="633" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0634.png"/>
+                <Frame index="634" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0635.png"/>
+                <Frame index="635" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0636.png"/>
+                <Frame index="636" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0637.png"/>
+                <Frame index="637" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0638.png"/>
+                <Frame index="638" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0639.png"/>
+                <Frame index="639" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0640.png"/>
+                <Frame index="640" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0641.png"/>
+                <Frame index="641" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0642.png"/>
+                <Frame index="642" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0643.png"/>
+                <Frame index="643" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0644.png"/>
+                <Frame index="644" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0645.png"/>
+                <Frame index="645" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0646.png"/>
+                <Frame index="646" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0647.png"/>
+                <Frame index="647" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0648.png"/>
+                <Frame index="648" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0649.png"/>
+                <Frame index="649" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0650.png"/>
+                <Frame index="650" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0651.png"/>
+                <Frame index="651" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0652.png"/>
+                <Frame index="652" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0653.png"/>
+                <Frame index="653" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0654.png"/>
+                <Frame index="654" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0655.png"/>
+                <Frame index="655" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0656.png"/>
+                <Frame index="656" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0657.png"/>
+                <Frame index="657" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0658.png"/>
+                <Frame index="658" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0659.png"/>
+                <Frame index="659" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0660.png"/>
+                <Frame index="660" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0661.png"/>
+                <Frame index="661" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0662.png"/>
+                <Frame index="662" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0663.png"/>
+                <Frame index="663" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0664.png"/>
+                <Frame index="664" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0665.png"/>
+                <Frame index="665" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0666.png"/>
+                <Frame index="666" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0667.png"/>
+                <Frame index="667" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0668.png"/>
+                <Frame index="668" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0669.png"/>
+                <Frame index="669" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0670.png"/>
+                <Frame index="670" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0671.png"/>
+                <Frame index="671" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0672.png"/>
+                <Frame index="672" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0673.png"/>
+                <Frame index="673" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0674.png"/>
+                <Frame index="674" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0675.png"/>
+                <Frame index="675" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0676.png"/>
+                <Frame index="676" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0677.png"/>
+                <Frame index="677" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0678.png"/>
+                <Frame index="678" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0679.png"/>
+                <Frame index="679" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0680.png"/>
+                <Frame index="680" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0681.png"/>
+                <Frame index="681" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0682.png"/>
+                <Frame index="682" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0683.png"/>
+                <Frame index="683" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0684.png"/>
+                <Frame index="684" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0685.png"/>
+                <Frame index="685" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0686.png"/>
+                <Frame index="686" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0687.png"/>
+                <Frame index="687" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0688.png"/>
+                <Frame index="688" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0689.png"/>
+                <Frame index="689" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0690.png"/>
+                <Frame index="690" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0691.png"/>
+                <Frame index="691" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0692.png"/>
+                <Frame index="692" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0693.png"/>
+                <Frame index="693" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0694.png"/>
+                <Frame index="694" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0695.png"/>
+                <Frame index="695" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0696.png"/>
+                <Frame index="696" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0697.png"/>
+                <Frame index="697" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0698.png"/>
+                <Frame index="698" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0699.png"/>
+                <Frame index="699" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0700.png"/>
+                <Frame index="700" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0701.png"/>
+                <Frame index="701" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0702.png"/>
+                <Frame index="702" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0703.png"/>
+                <Frame index="703" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0704.png"/>
+                <Frame index="704" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0705.png"/>
+                <Frame index="705" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0706.png"/>
+                <Frame index="706" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0707.png"/>
+                <Frame index="707" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0708.png"/>
+                <Frame index="708" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0709.png"/>
+                <Frame index="709" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0710.png"/>
+                <Frame index="710" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0711.png"/>
+                <Frame index="711" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0712.png"/>
+                <Frame index="712" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0713.png"/>
+                <Frame index="713" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0714.png"/>
+                <Frame index="714" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0715.png"/>
+                <Frame index="715" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0716.png"/>
+                <Frame index="716" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0717.png"/>
+                <Frame index="717" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0718.png"/>
+                <Frame index="718" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0719.png"/>
+                <Frame index="719" path="ATEM Media Pool/frame-000000 3/frame-000000 3 0720.png"/>
+            </Clip>
+        </Clips>
+    </MediaPool>
+    <MacroPool>
+        <Macro index="0" name="Ctdn - Start Countdn" description="">
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="ME3Program"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME3Program"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="HyperDeckRecord" hyperDeckIndex="1"/>
+            <Op id="HyperDeckRecord" hyperDeckIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="MacroSleep" frames="16"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="1" name="Band - First Song" description="">
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera17"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME1Program"/>
+            <Op id="MacroSleep" frames="16"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="2" name="M+G - Start Meet+Grt" description="">
+            <Op id="TransitionDipRate" mixEffectBlockIndex="3" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="3" rate="15"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="15"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="MacroSleep" frames="16"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="3" name="Band - Worship" description="">
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="MacroSleep" frames="31"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="4" name="Bump - Start Bumper" description="">
+            <Op id="TransitionDipRate" mixEffectBlockIndex="3" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="3" rate="15"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="15"/>
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="1"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="5" name="Msg - Start Message" description="">
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="8"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key2"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="31"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="6" name="TBD" description=""/>
+        <Macro index="7" name="TBD" description=""/>
+        <Macro index="8" name="End - Dismissal" description="">
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="10"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="MacroSleep" frames="31"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="9" name="Rset - Walk In/Out" description="">
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="10"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="True"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="3" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="3" rate="15"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="15"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background, Key1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera17"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="ME3Program"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME3Program"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="MacroSleep" frames="16"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="10" name="Vid - GfxPC Playback" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="31"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="11" name="Bap+ -Baptism Start" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera4"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera4"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera4"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="31"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="12" name="Bap- - Baptism End" description="">
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="31"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+        </Macro>
+        <Macro index="13" name="VTR Z Playback" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="4"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="15" name="Ben Third" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="2"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="16" name="Will Third" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="3"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="17" name="2Msg - Cam 2 Mssage" description="">
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="0" action="Set" values="0.879883"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="3" action="Set" values="0.186523"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
+        </Macro>
+        <Macro index="18" name="2Bnd - Cam 2 Worshp" description="">
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="0" action="Set" values="0.899902"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="0" parameter="3" action="Set" values="0.151855"/>
+            <Op id="CameraControlFixedPoint16Bit" address="2" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
+        </Macro>
+        <Macro index="19" name="Init - Startup Tasks" description="Runs &quot;Standard Split-Screen&quot; and &quot;Cam 2 Reset&quot;">
+            <Op id="CameraControlByte" address="9" category="1" parameter="1" action="Set" values="8"/>
+            <Op id="CameraControlByte" address="9" category="1" parameter="13" action="Set" values="12"/>
+            <Op id="CameraControl32Bit" address="9" category="1" parameter="5" action="Set" values="16667"/>
+            <Op id="CameraControl16Bit" address="9" category="1" parameter="2" action="Set" values="3400"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Set" values="0.899902"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="3" action="Set" values="0.0795898"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="0" action="Set" values="0, 0, 0, 0"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="1" action="Set" values="0, 0, 0, 0"/>
+            <Op id="CameraControlFixedPoint16Bit" address="9" category="8" parameter="2" action="Set" values="0.959961, 1.05273, 1.12988, 1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="3" enable="True"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="3" enable="False"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxInput" boxIndex="0" input="Camera1"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="0" xPosition="-10.45"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="0" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="0" size="0.649994"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxMaskLeft" boxIndex="0" left="8.14999"/>
+            <Op id="SuperSourceBoxMaskTop" boxIndex="0" top="0"/>
+            <Op id="SuperSourceBoxMaskRight" boxIndex="0" right="8.14999"/>
+            <Op id="SuperSourceBoxMaskBottom" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxInput" boxIndex="1" input="Camera11"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="1" xPosition="5.2"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="1" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="1" size="0.649994"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="1" enable="False"/>
+        </Macro>
+        <Macro index="20" name="Reset (Cam + Slides)" description="">
+            <Op id="ProgramInput" mixEffectBlockIndex="1" input="Camera11"/>
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera11"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="1" input="Camera11"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="Camera11"/>
+        </Macro>
+        <Macro index="21" name="Talk/Sing (All-Cam)" description="">
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+        </Macro>
+        <Macro index="23" name="Pray (All Slides)" description="">
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera11"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera11"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+        </Macro>
+        <Macro index="24" name="clip test" description="">
+            <Op id="MediaPlayerSourceClipIndex" mediaPlayer="3" index="0"/>
+            <Op id="MediaPlayerSourceClip" mediaPlayer="3"/>
+            <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
+            <Op id="MediaPlayerPause" mediaPlayer="3"/>
+            <Op id="MediaPlayerPlay" mediaPlayer="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="MediaPlayerPause" mediaPlayer="3"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Key4"/>
+            <Op id="CutTransition" mixEffectBlockIndex="3"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="True"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/>
+            <Op id="CutTransition" mixEffectBlockIndex="3"/>
+            <Op id="CutTransition" mixEffectBlockIndex="3"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
+        </Macro>
+        <Macro index="80" name="Standard SuperSource" description="Cam 1 + Gfx Live">
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="3" enable="True"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="3" enable="False"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxInput" boxIndex="0" input="Camera1"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="0" xPosition="-10.45"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="0" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="0" size="0.649994"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxMaskLeft" boxIndex="0" left="8.14999"/>
+            <Op id="SuperSourceBoxMaskTop" boxIndex="0" top="0"/>
+            <Op id="SuperSourceBoxMaskRight" boxIndex="0" right="8.14999"/>
+            <Op id="SuperSourceBoxMaskBottom" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxInput" boxIndex="1" input="Camera11"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="1" xPosition="5.2"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="1" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="1" size="0.649994"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="1" enable="False"/>
+        </Macro>
+    </MacroPool>
+    <MacroControl loop="False"/>
+</Profile>
