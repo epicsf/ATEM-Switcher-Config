@@ -87,6 +87,9 @@
             <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <!-- Play Env Proj Clip -->
+            <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
+            <Op id="MediaPlayerPlay" mediaPlayer="3"/>
             <!-- Set Transition Source -->
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
@@ -119,6 +122,8 @@
         <Macro index="2" name="M+G - Start Meet+Grt" description="">
             <!-- Set Transition Rate -->
             <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
+            <!-- Pause Env Proj Clip -->
+            <Op id="MediaPlayerPause" mediaPlayer="3"/>
             <!-- Set Transition Source -->
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <!-- Transitions:
@@ -158,6 +163,8 @@
             <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
             <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
             <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="15"/>
+            <!-- Pause Env Proj Clip -->
+            <Op id="MediaPlayerPause" mediaPlayer="3"/>
             <!-- Set Transition Source -->
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
@@ -245,6 +252,9 @@
             <!-- Switch MP1 to Logo -->
             <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="10"/>
             <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <!-- Play Env Proj Clip -->
+            <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
+            <Op id="MediaPlayerPlay" mediaPlayer="3"/>
             <!-- Bug and Lower Third Off -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
@@ -271,6 +281,9 @@
             <!-- Switch MP1 to Logo -->
             <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="10"/>
             <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <!-- Play Env Proj Clip -->
+            <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
+            <Op id="MediaPlayerPlay" mediaPlayer="3"/>
             <!-- Set Env Proj to MP4 and turn mask on -->
             <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/>
             <Op id="AutoTransition" mixEffectBlockIndex="3"/>
