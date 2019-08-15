@@ -172,6 +172,8 @@
             <Op id="MacroSleep" frames="2"/>
             <Op id="AudioMixerInputGain" input="Camera17" gain="0"/>
             <Op id="AudioMixerMasterOutGain" gain="32768"/>
+            <!-- Preview something useable on ME1 -->
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera9"/>
             <!-- Make extra sure don't show the multiview on ME2 -->
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
