@@ -62,7 +62,7 @@
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <!-- Frames: 15 out of 52
-                - Fade Master to 0
+                - Fade Master to unity
                 - 0DB: 32768; -infDB: 0
             -->
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="200"/>
@@ -94,7 +94,7 @@
             <Op id="HyperDeckRecord" hyperDeckIndex="1"/>
             <Op id="HyperDeckRecord" hyperDeckIndex="2"/>
             <!-- Frames: 15
-                - Fade Master to 0
+                - Fade Master to unity
             -->
             <Op id="MacroSleep" frames="2"/>
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2429"/>
@@ -117,7 +117,7 @@
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
             <!-- Frames: 22
-                - Fade Master to 0
+                - Fade Master to unity
             -->
             <Op id="MacroSleep" frames="2"/>
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="7682"/>
@@ -156,8 +156,7 @@
             <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
             <Op id="MediaPlayerPlay" mediaPlayer="3"/>
             <!-- Audio Setting
-                - Fade AnncRot/StreamBGM to neg-inf
-                - Fade Master to 0
+                - Fade Master to unity
             -->
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="32768"/>
             <!-- Set Transition Source -->
