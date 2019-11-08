@@ -637,7 +637,6 @@
                 - Transitions: Side Screen: VTR
                 - Set Video Clip
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="4"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
