@@ -814,6 +814,576 @@
         <Macro index="27" name="Focus 9 Coarse Far" description="">
             <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="0.1"/>
         </Macro>
+        <Macro index="30" name="VTRZ - Play Vid 1" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 1
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="31" name="VTRZ - Play Vid 2" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 2
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="1"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="32" name="VTRZ - Play Vid 3" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 3
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="2"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="33" name="VTRZ - Play Vid 4" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 4
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="3"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="34" name="VTRZ - Play Vid 5" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 5
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="4"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="35" name="VTRZ - Play Vid 6" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 6
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="5"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="36" name="VTRZ - Play Vid 7" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 7
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="6"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="37" name="VTRZ - Play Vid 8" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 8
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="7"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="38" name="VTRZ - Play Vid 9" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 9
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="8"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
+        <Macro index="39" name="VTRZ - Play Vid 10" description="">
+            <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
+            <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
+            <!-- All Keyers Off -->
+            <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="DownstreamKeyTie" keyIndex="0" tie="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Transitions:
+                - Side Screens: Black (Dipping)
+                - Stage Screen: ME3
+                - Broadcast: ME3
+            -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="ME3Program"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Half-way through 30 Frame Dip Transition
+                - Transitions: Side Screen: VTR
+                - Set Video Clip to Video 10
+            -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="9"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Play Video -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="MacroSleep" frames="16"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
+        </Macro>
         <Macro index="80" name="Standard SuperSource" description="Cam 1 + Gfx Live">
             <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
             <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
