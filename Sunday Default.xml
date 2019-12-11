@@ -683,15 +683,15 @@
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Ben Animated Lower Third Clip -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="2"/>
-            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
-            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="0"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
             <!-- Transition: Key 3: On -->
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
             <Op id="MacroSleep" frames="1"/>
             <!-- Video Play -->
-            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="MacroSleep" frames="1"/>
@@ -702,15 +702,15 @@
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Will Animated Lower Third Clip -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="3"/>
-            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
-            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="1"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
             <!-- Transition: Key 3: On -->
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
             <Op id="MacroSleep" frames="1"/>
             <!-- Video Play -->
-            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="MacroSleep" frames="1"/>
