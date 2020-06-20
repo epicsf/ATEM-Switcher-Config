@@ -71,6 +71,7 @@
                 - Set Live Countdown Clip
                 - Set Broadcast Countdown Clip
                 - Start Recorders
+                - Tally Aux: Broadcast
             -->
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera10"/>
@@ -82,6 +83,7 @@
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
             <Op id="HyperDeckRecord" hyperDeckIndex="1"/>
             <Op id="HyperDeckRecord" hyperDeckIndex="2"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- End of Dip Transition -->
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
@@ -106,13 +108,36 @@
             <!-- Play Env Proj Clip -->
             <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
             <Op id="MediaPlayerPlay" mediaPlayer="3"/>
+            <!-- Audio Setting
+                - Fade Master to unity
+                - 0DB: 32768; -infDB: 0
+            -->
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1092"/>
+            <Op id="MacroSleep" frames="2"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="3277"/>
+            <Op id="MacroSleep" frames="2"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="5461"/>
+            <Op id="MacroSleep" frames="2"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="7646"/>
+            <Op id="MacroSleep" frames="2"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="9830"/>
+            <Op id="MacroSleep" frames="2"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="12015"/>
+            <Op id="MacroSleep" frames="2"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="14199"/>
+            <Op id="MacroSleep" frames="2"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="16384"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="17476"/>
             <!-- Set Transition Source -->
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
-            <!-- Transitions:
+            <!-- 15 Frames
+                Transitions:
                 - Side Screens: Graphics
                 - Stage Screen: Camera 1
                 - Broadcast: Preview
+                - Audio: Fade Master to unity
             -->
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
@@ -122,71 +147,26 @@
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <!-- Audio Setting
-                - Fade Master to unity
-                - 0DB: 32768; -infDB: 0
-            -->
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="200"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="306"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="19661"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="706"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="21845"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1036"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="24030"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1136"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="26214"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1366"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="28399"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1566"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="30583"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1843"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="32768"/>
             <Op id="MacroSleep" frames="1"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2043"/>
             <!-- Switch Auxes at the black part of the dip; 15 Frames -->
             <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera17"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME1Program"/>
-            <!-- Frames: 38
-                - Fade Master to unity
-            -->
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2429"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2729"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="3277"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="3777"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="4320"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="4820"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="5827"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="5827"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="7682"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="9362"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="10362"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="11362"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="13660"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="15660"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="18427"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="21427"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="24291"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="28291"/>
-            <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="32768"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="Color2"/>
+            <Op id="MacroSleep" frames="30"/>
             <!-- Transition default style back to Mix -->
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
@@ -263,6 +243,7 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
+                - Set Aux Tally
                 - Set Bumper Clip
             -->
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
@@ -271,6 +252,7 @@
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="MacroSleep" frames="15"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
             <Op id="MacroSleep" frames="16"/>
@@ -308,7 +290,10 @@
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MacroSleep" frames="30"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Set Aux Tally -->
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="Color2"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <!-- Transition default style back to Mix -->
@@ -394,12 +379,14 @@
                 - Transitions: Broadcast: VTR W
                 - Set Video Clip
                 - Fade Master down to neg-inf
+                - Set Aux Tally
                 - 0DB: 32768; -infDB: 0
             -->
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="1"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera10"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="28291"/>
             <Op id="MacroSleep" frames="2"/>
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="24291"/>
@@ -524,11 +511,13 @@
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Broadcast: ME3
                 - Set Master to neg-inf
+                - Tally Aux: Broadcast
             -->
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="0" input="ME3Program"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME3Program"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="0"/>
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
@@ -601,6 +590,7 @@
                 - Env Proj: MP4
                 - Side Screens: Graphics
                 - Stage Screen: Camera 1
+                - Tally Aux: Broadcast
                 - Broadcast: Preview
             -->
             <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
@@ -614,7 +604,9 @@
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MacroSleep" frames="31"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
+            <Op id="MacroSleep" frames="16"/>
             <!-- Transition default style back to Mix -->
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
@@ -647,6 +639,7 @@
                 - Side Screens: Graphics
                 - Stage Screen: ME3
                 - Broadcast: ME3
+                - Tally Aux: Broadcast
             -->
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
@@ -657,7 +650,9 @@
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="ME3Program"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MacroSleep" frames="31"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
+            <Op id="MacroSleep" frames="16"/>
             <!-- Transition default style back to Mix -->
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
@@ -704,12 +699,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
+                - Tally Aux: Broadcast
                 - Set Video Clip
             -->
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="2"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -730,6 +727,7 @@
                 - Side Screens: Graphics
                 - Stage Screen: Camera 1
                 - Broadcast: Preview
+                - Tally Aux: Color 2 (Red)
             -->
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
@@ -739,7 +737,9 @@
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MacroSleep" frames="31"/>
+            <Op id="MacroSleep" frames="15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="Color2"/>
+            <Op id="MacroSleep" frames="16"/>
             <!-- Transition default style back to Mix -->
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
@@ -904,11 +904,13 @@
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
                 - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -960,12 +962,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 2
+                - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="1"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -1017,12 +1021,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 3
+                - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="2"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -1074,12 +1080,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 4
+                - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="3"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -1131,12 +1139,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 5
+                - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="4"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -1188,12 +1198,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 6
+                - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="5"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -1245,12 +1257,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 7
+                - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="6"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -1302,12 +1316,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 8
+                - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="7"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -1359,12 +1375,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 9
+                - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="8"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
@@ -1416,12 +1434,14 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 10
+                - Set Video Clip to Video 1
+                - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="9"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Play Video -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
