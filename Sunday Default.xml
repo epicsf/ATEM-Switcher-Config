@@ -1454,6 +1454,386 @@
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
+        <Macro index="50" name="VTRW - Play Vid 1" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="0"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="51" name="VTRW - Play Vid 2" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="1"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="52" name="VTRW - Play Vid 3" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="2"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="53" name="VTRW - Play Vid 4" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="3"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="54" name="VTRW - Play Vid 5" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="4"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="55" name="VTRW - Play Vid 6" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="5"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="56" name="VTRW - Play Vid 7" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="6"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="57" name="VTRW - Play Vid 8" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="7"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="58" name="VTRW - Play Vid 9" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="8"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="59" name="VTRW - Play Vid 10" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="9"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="60" name="VTRW - Play Vid 11" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="10"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="61" name="VTRW - Play Vid 12" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="11"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="62" name="VTRW - Play Vid 13" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="12"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="63" name="VTRW - Play Vid 14" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="13"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="64" name="VTRW - Play Vid 15" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="14"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="65" name="VTRW - Play Vid 16" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="15"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="66" name="VTRW - Play Vid 17" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="16"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="67" name="VTRW - Play Vid 18" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="17"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="68" name="VTRW - Play Vid 19" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="18"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
+        <Macro index="69" name="VTRW - Play Vid 20" description="">
+            <!-- Make sure Key 3 is off so we can transition it on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="19"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <!-- Transition: Key 3: On -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Transition Source back to Background -->
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+        </Macro>
         <Macro index="80" name="Standard SuperSource" description="Cam 1 + Gfx Live">
             <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
             <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
