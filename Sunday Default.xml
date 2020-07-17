@@ -749,42 +749,26 @@
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
         <Macro index="15" name="Ben Third" description="">
-            <!-- Make sure Key 3 is off so we can transition it on -->
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
-            <!-- Set Ben Animated Lower Third Clip -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="2"/>
-            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
-            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <!-- Transition: Key 3: On -->
-            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
-            <Op id="MacroSleep" frames="1"/>
-            <!-- Video Play -->
-            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
-            <Op id="MacroSleep" frames="1"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MacroSleep" frames="1"/>
-            <!-- Set Transition Source back to Background -->
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
-        </Macro>
-        <Macro index="16" name="Will Third" description="">
-            <!-- Make sure Key 3 is off so we can transition it on -->
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Will Animated Lower Third Clip -->
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="3"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <!-- Transition: Key 3: On -->
-            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Key3"/>
             <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+        </Macro>
+        <Macro index="16" name="Will Third" description="">
+            <!-- Set Will Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="3"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
             <Op id="MacroSleep" frames="1"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MacroSleep" frames="1"/>
-            <!-- Set Transition Source back to Background -->
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
         </Macro>
         <Macro index="17" name="Focus 9 Fine Near" description="">
             <Op id="CameraControlFixedPoint16Bit" address="9" category="0" parameter="0" action="Offset" values="-0.01"/>
