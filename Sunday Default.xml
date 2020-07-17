@@ -962,10 +962,10 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 1
+                - Set Video Clip to Video 2
                 - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="1"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
@@ -1021,10 +1021,10 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 1
+                - Set Video Clip to Video 3
                 - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="2"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
@@ -1080,10 +1080,10 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 1
+                - Set Video Clip to Video 4
                 - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="3"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
@@ -1139,10 +1139,10 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 1
+                - Set Video Clip to Video 5
                 - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="4"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
@@ -1198,10 +1198,10 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 1
+                - Set Video Clip to Video 6
                 - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="5"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
@@ -1257,10 +1257,10 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 1
+                - Set Video Clip to Video 7
                 - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="6"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
@@ -1316,10 +1316,10 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 1
+                - Set Video Clip to Video 8
                 - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="7"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
@@ -1375,10 +1375,10 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 1
+                - Set Video Clip to Video 9
                 - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="8"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
@@ -1434,10 +1434,10 @@
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
-                - Set Video Clip to Video 1
+                - Set Video Clip to Video 10
                 - Tally Aux: Broadcast
             -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="9"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera15"/>
