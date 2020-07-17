@@ -749,8 +749,8 @@
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
         <Macro index="15" name="Ben Third" description="">
-            <!-- Set Will Animated Lower Third Clip -->
-            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="3"/>
+            <!-- Set Ben Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="2"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
             <Op id="MacroSleep" frames="1"/>
