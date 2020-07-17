@@ -1492,7 +1492,7 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="52" name="VTRW - Play Vid 3" description="">
+        <Macro index="52" name="VTRW - Play Vid 3 - Ben" description="">
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Ben Animated Lower Third Clip -->
@@ -1511,7 +1511,7 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="53" name="VTRW - Play Vid 4" description="">
+        <Macro index="53" name="VTRW - Play Vid 4 - Will" description="">
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Animated Lower Third Clip -->
@@ -1530,7 +1530,7 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="54" name="VTRW - Play Vid 5" description="">
+        <Macro index="54" name="VTRW - Play Vid 5 - Lindsey" description="">
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Ben Animated Lower Third Clip -->
@@ -1549,7 +1549,7 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="55" name="VTRW - Play Vid 6" description="">
+        <Macro index="55" name="VTRW - Play Vid 6 - Atul" description="">
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Ben Animated Lower Third Clip -->
@@ -1568,7 +1568,7 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="56" name="VTRW - Play Vid 7" description="">
+        <Macro index="56" name="VTRW - Play Vid 7 - Minnie" description="">
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Animated Lower Third Clip -->
@@ -1587,7 +1587,7 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="57" name="VTRW - Play Vid 8" description="">
+        <Macro index="57" name="VTRW - Play Vid 8 - Rachael" description="">
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Ben Animated Lower Third Clip -->
@@ -1606,7 +1606,7 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="58" name="VTRW - Play Vid 9" description="">
+        <Macro index="58" name="VTRW - Play Vid 9 - Shauna" description="">
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Ben Animated Lower Third Clip -->
@@ -1625,7 +1625,7 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="59" name="VTRW - Play Vid 10" description="">
+        <Macro index="59" name="VTRW - Play Vid 10 - Ben+Shauna" description="">
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Ben Animated Lower Third Clip -->
@@ -1644,7 +1644,7 @@
             <!-- Set Transition Source back to Background -->
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
         </Macro>
-        <Macro index="60" name="VTRW - Play Vid 11" description="">
+        <Macro index="60" name="VTRW - Play Vid 11 - Ben+Will" description="">
             <!-- Make sure Key 3 is off so we can transition it on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
             <!-- Set Animated Lower Third Clip -->
