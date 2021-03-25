@@ -753,7 +753,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="2"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -765,7 +765,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="3"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1445,7 +1445,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="0"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1457,7 +1457,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="1"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1469,7 +1469,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="2"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1481,7 +1481,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="3"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1493,7 +1493,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="4"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1505,7 +1505,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="5"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1517,7 +1517,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="6"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1529,7 +1529,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="7"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1541,7 +1541,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="8"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1553,7 +1553,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="9"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1565,7 +1565,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="10"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1577,7 +1577,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="11"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1589,7 +1589,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="12"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1601,7 +1601,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="13"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1613,7 +1613,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="14"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1625,7 +1625,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="15"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1637,7 +1637,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="16"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1649,7 +1649,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="17"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1661,7 +1661,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="18"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
@@ -1673,7 +1673,7 @@
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="19"/>
             <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
-            <Op id="MacroSleep" frames="1"/>
+            <Op id="MacroSleep" frames="15"/>
             <!-- Video Play -->
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
             <Op id="MacroSleep" frames="1"/>
