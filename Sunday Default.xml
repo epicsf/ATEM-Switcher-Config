@@ -269,6 +269,9 @@
             <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
+            <!-- Switch MP1 to PushPay -->
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="8"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <!-- Lower Third Off -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <!-- Set Transition Source -->
@@ -339,6 +342,9 @@
             <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/>
             <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="True"/>
+            <!-- Switch MP1 to Logo -->
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="9"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <!-- Set Transition Rate -->
             <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
@@ -466,6 +472,9 @@
             <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/>
             <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="True"/>
+            <!-- Switch MP1 to Logo -->
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="9"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <!-- All Keyers Off -->
             <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
             <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
