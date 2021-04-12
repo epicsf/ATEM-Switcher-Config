@@ -465,6 +465,9 @@
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
         <Macro index="9" name="Rset - Walk In/Out" description="">
+            <!-- Switch MP1 to Logo -->
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="9"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <!-- Play Env Proj Clip -->
             <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
             <Op id="MediaPlayerPlay" mediaPlayer="3"/>
@@ -472,9 +475,6 @@
             <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/>
             <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="True"/>
-            <!-- Switch MP1 to Logo -->
-            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="9"/>
-            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
             <!-- All Keyers Off -->
             <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
             <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
