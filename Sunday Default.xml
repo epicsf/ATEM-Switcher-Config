@@ -534,6 +534,7 @@
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <!-- Make extra sure don't show the multiview on ME2 -->
+            <Op id="MacroSleep" frames="16"/>
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
