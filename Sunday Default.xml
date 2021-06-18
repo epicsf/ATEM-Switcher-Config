@@ -163,7 +163,7 @@
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="32768"/>
             <Op id="MacroSleep" frames="1"/>
             <!-- Switch Auxes at the black part of the dip; 15 Frames -->
-            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera17"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera14"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME1Program"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="5" input="Color2"/>
             <Op id="MacroSleep" frames="30"/>
@@ -327,13 +327,13 @@
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <!-- Transitions:
-                - Side Screens: Annc Rotation
+                - Side Screens: Annc Rotation - Main
                     - Clock: On
                 - Stage Screen: Logo
                 - Broadcast: Black (Dipping)
             -->
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera17"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera14"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
@@ -459,14 +459,14 @@
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <!-- Transitions:
-                - Side Screens: Annc Rotation
+                - Side Screens: Annc Rotation - Main
                     - Clock: On
                 - Stage Screen: Logo
                 - Broadcast: ME3 via Black
                     - Bug: On
             -->
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera17"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera14"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
