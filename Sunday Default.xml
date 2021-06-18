@@ -175,8 +175,6 @@
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
-        <Macro index="2" name="TBD" description=""/>
-        <Macro index="3" name="TBD" description=""/>
         <Macro index="4" name="Bump - Start Bumper" description="">
             <!-- Set Transition Rate -->
             <Op id="TransitionDipRate" mixEffectBlockIndex="3" rate="30"/>
@@ -272,7 +270,6 @@
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
-        <Macro index="6" name="TBD" description=""/>
         <Macro index="7" name="End - Dismissal" description="">
             <!-- Play Env Proj Clip -->
             <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/>
