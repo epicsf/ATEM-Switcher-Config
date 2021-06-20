@@ -302,6 +302,9 @@
             <Op id="MacroSleep" frames="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
+            <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="MacroSleep" frames="31"/>
             <!-- Make extra sure don't show the multiview on ME2 -->
             <Op id="TransitionPosition" mixEffectBlockIndex="1" position="0"/>
@@ -325,6 +328,7 @@
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera10"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="28291"/>
             <Op id="MacroSleep" frames="2"/>
