@@ -295,7 +295,7 @@
                 - Side Screens: Annc Rotation - Main
                 - Stage Screen: MP 1 (Logo)
             -->
-            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera10"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera14"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
