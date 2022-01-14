@@ -1572,6 +1572,126 @@
             <!-- Set Key 3 on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
         </Macro>
+        <Macro index="70" name="VTRW - Play Vid 21" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="20"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="71" name="VTRW - Play Vid 22" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="21"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="72" name="VTRW - Play Vid 23" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="22"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="73" name="VTRW - Play Vid 24" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="23"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="74" name="VTRW - Play Vid 25" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="24"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="75" name="VTRW - Play Vid 26" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="25"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="76" name="VTRW - Play Vid 27" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="26"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="77" name="VTRW - Play Vid 28" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="27"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="78" name="VTRW - Play Vid 29" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="28"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="79" name="VTRW - Play Vid 30" description="">
+            <!-- Set Animated Lower Third Clip -->
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="3" clipIndex="29"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="3" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="3" speedPercent="1"/>
+            <Op id="MacroSleep" frames="15"/>
+            <!-- Video Play -->
+            <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
+            <Op id="MacroSleep" frames="1"/>
+            <!-- Set Key 3 on -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
         <Macro index="80" name="Standard SuperSource" description="Cam 1 + Gfx Live">
             <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
             <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
