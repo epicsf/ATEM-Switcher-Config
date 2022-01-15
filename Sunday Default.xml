@@ -454,6 +454,7 @@
             -->
             <Op id="AuxiliaryInput" auxiliaryIndex="0" input="ME3Program"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME3Program"/>
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="ME3Program"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="0"/>
             <!-- Set Transition Source back to Background -->
@@ -712,6 +713,17 @@
             <Op id="MacroSleep" frames="1"/>
             <!-- Set Key 3 on -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="17" name="" description="">
+        </Macro>
+        <Macro index="18" name="Room Screens - Gfx" description="Send Gfx PC to room screens">
+            <!-- Set timer/clock keyer (driven by Gfx PC) OFF -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
+            <!-- Set Aux 3 to Gfx PC main output -->
+            <Op id="AuxiliaryInput" auxiliaryIndex="2" input="Camera11"/>
+            <!-- Set ME2 to Gfx PC main output -->
+            <Op id="ProgramInput" mixEffectBlockIndex="1" input="Camera11"/>
         </Macro>
         <Macro index="19" name="Init - Startup Tasks" description="Runs &quot;Standard Split-Screen&quot; and &quot;Cam 2 Reset&quot;">
             <!-- Reset Supersource Settings -->
