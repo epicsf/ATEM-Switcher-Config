@@ -39,15 +39,21 @@
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="False"/>
             <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <!-- Transitions:
+                - LED Wall: Black + Video PiP
                 - Side Screens: Black (Dipping)
                 - Stage Screen: Logo
                 - Broadcast: Black (Dipping)
             -->
+            <Op id="KeyFillInput" mixEffectBlockIndex="3" keyIndex="3" input="Camera15"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
@@ -58,6 +64,7 @@
             <Op id="MacroSleep" frames="1"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="0" input="ME3Program"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="1" input="ME1Program"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
@@ -88,6 +95,14 @@
             <!-- End of Dip Transition -->
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
+            <!-- LED Wall: Show video player -->
+            <!--   - Reset source and on-air state to known settings -->
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="3" keyIndex="3" input="Camera15"/>
+            <!--   - Dissolve key in -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Key4"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <!-- Play Videos -->
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
             <Op id="HyperDeckPlay" hyperDeckIndex="3"/>
@@ -102,6 +117,7 @@
         </Macro>
         <Macro index="1" name="Band - Worship" description="">
             <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="3" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
@@ -130,18 +146,19 @@
             <Op id="MacroSleep" frames="1"/>
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="17476"/>
             <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <!-- 15 Frames
                 Transitions:
-                - Side Screens: Graphics
+                - LED Wall: Graphics
                 - Stage Screen: Camera 1
                 - Broadcast: Preview
                 - Audio: Fade Master to unity
             -->
-            <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Camera11"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
@@ -168,6 +185,7 @@
             <Op id="AuxiliaryInput" auxiliaryIndex="5" input="Color2"/>
             <Op id="MacroSleep" frames="30"/>
             <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
@@ -217,17 +235,20 @@
             <Op id="TransitionMixRate" mixEffectBlockIndex="2" rate="15"/>
             <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
             <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="15"/>
-            <!-- Pause LED Wall Clip -->
-            <!-- <Op id="MediaPlayerPause" mediaPlayer="3"/> -->
             <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <!-- Transitions:
+                - LED Wall: Black + Video PiP
                 - Side Screens: Black (Dipping)
                 - Stage Screen: Camera 1
                 - Broadcast: Preview
             -->
+            <Op id="KeyFillInput" mixEffectBlockIndex="3" keyIndex="3" input="Camera15"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
@@ -238,6 +259,7 @@
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
@@ -264,27 +286,33 @@
         </Macro>
         <Macro index="5" name="Msg - Start Message" description="">
             <!-- Set Transition Rate -->
+            <Op id="TransitionDipRate" mixEffectBlockIndex="3" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="0" rate="30"/>
             <!-- Lower Third Off -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key2"/>
             <!-- Transitions:
+                - LED Wall: Graphics
                 - Side Screens: Graphics
                 - Stage Screen: Camera 1
                 - Broadcast: Preview
                     - Bug: On
             -->
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Camera11"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera1"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
@@ -303,9 +331,6 @@
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
         <Macro index="7" name="End - Dismissal" description="">
-            <!-- Play LED Wall Clip -->
-            <!-- <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/> -->
-            <!-- <Op id="MediaPlayerPlay" mediaPlayer="3"/> -->
             <!-- All Keyers Off -->
             <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
             <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
@@ -317,21 +342,27 @@
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="False"/>
             <!-- Set Transition Rate -->
             <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="1" rate="30"/>
             <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <!-- Transitions:
+                - LED Wall: Black
                 - Side Screens: Annc Rotation - Main
                 - Stage Screen: MP 1 (Logo)
             -->
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera14"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="MediaPlayer1"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
             <Op id="MacroSleep" frames="1"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <!-- Transition default style back to Mix -->
@@ -429,13 +460,6 @@
             <Op id="PreviewInput" mixEffectBlockIndex="1" input="Camera20"/>
         </Macro>
         <Macro index="9" name="Rset - Walk In/Out" description="">
-            <!-- Play LED Wall Clip -->
-            <!-- <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/> -->
-            <!-- <Op id="MediaPlayerPlay" mediaPlayer="3"/> -->
-            <!-- Set LED Wall to MP4 and turn mask on -->
-            <!-- <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/> -->
-            <!-- <Op id="AutoTransition" mixEffectBlockIndex="3"/> -->
-            <!-- <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="True"/> -->
             <!-- All Keyers Off -->
             <Op id="DownstreamKeyTie" keyIndex="1" tie="False"/>
             <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
@@ -447,6 +471,7 @@
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="False"/>
             <!-- Set Transition Rate -->
             <Op id="TransitionDipRate" mixEffectBlockIndex="3" rate="30"/>
             <Op id="TransitionDipRate" mixEffectBlockIndex="2" rate="30"/>
@@ -457,10 +482,12 @@
             <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
             <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="15"/>
             <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background, Key1"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key1"/>
             <!-- Transitions:
+                - LED Wall: MP4
                 - Side Screens: Annc Rotation - Main
                     - Clock: On
                 - Stage Screen: Logo
@@ -468,6 +495,9 @@
                     - Clock: On
                 ME2 and ME3 will likely already be on these sources, so we mix instead of dip
             -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera14"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
@@ -523,20 +553,22 @@
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="False"/>
             <!-- Set Transition Source -->
-            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <!-- Transitions:
-                - LED Wall: [TODO] IMAG in LED Wall PiP
+                - LED Wall: Black + IMAG PiP
                 - Side Screens: Camera 4
                 - Stage Screen: Camera 4
                 - Broadcast: Camera 4
             -->
-            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
-            <!-- <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/> -->
-            <!-- <Op id="AutoTransition" mixEffectBlockIndex="3"/> -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="3" keyIndex="3" input="Camera2"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera4"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
@@ -548,6 +580,7 @@
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="MacroSleep" frames="31"/>
             <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
@@ -557,19 +590,19 @@
         </Macro>
         <Macro index="11" name="Bap- - Baptism End" description="">
             <!-- Set Transition Source -->
-            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <!-- Transitions:
-                - LED Wall: [TODO] Back to default
+                - LED Wall: Graphics
                 - Side Screens: Graphics
                 - Stage Screen: Camera 1
                 - Tally Aux: Broadcast
                 - Broadcast: Preview
             -->
             <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
-            <!-- <Op id="PreviewInput" mixEffectBlockIndex="3" input="MediaPlayer4"/> -->
-            <!-- <Op id="AutoTransition" mixEffectBlockIndex="3"/> -->
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Camera11"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
@@ -650,15 +683,21 @@
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="2" keyIndex="3" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="3" keyIndex="3" onAir="False"/>
             <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <!-- Transitions:
+                - LED Wall: Black + Video PiP
                 - Side Screens: Black (Dipping)
                 - Stage Screen: ME3
                 - Broadcast: ME3
             -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Dip"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="3" keyIndex="3" input="Camera15"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Key4"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
@@ -670,6 +709,7 @@
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="AutoTransition" mixEffectBlockIndex="1"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="MacroSleep" frames="15"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Transitions: Side Screen: VTR
@@ -687,6 +727,7 @@
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
             <Op id="MacroSleep" frames="16"/>
             <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
             <!-- Make extra sure don't show the multiview on ME2 -->
@@ -695,14 +736,19 @@
         </Macro>
         <Macro index="14" name="Vid- - End Playback" description="">
             <!-- Set Transition Source -->
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <!-- Transitions:
+                - LED Wall: Graphics
                 - Side Screens: Graphics
                 - Stage Screen: Camera 1
                 - Broadcast: Preview
                 - Tally Aux: Color 2 (Red)
             -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Dip"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Camera11"/>
+            <Op id="AutoTransition" mixEffectBlockIndex="3"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Camera11"/>
             <Op id="AutoTransition" mixEffectBlockIndex="2"/>
@@ -715,6 +761,7 @@
             <Op id="AuxiliaryInput" auxiliaryIndex="5" input="Color2"/>
             <Op id="MacroSleep" frames="16"/>
             <!-- Transition default style back to Mix -->
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Mix"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
