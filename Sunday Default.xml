@@ -125,26 +125,26 @@
             <!-- <Op id="MediaPlayerLoop" mediaPlayer="3" loop="True"/> -->
             <!-- <Op id="MediaPlayerPlay" mediaPlayer="3"/> -->
             <!-- Audio Setting
-                - Fade Master to unity
-                - 0DB: 32768; -infDB: 0
+                - Fade Master to +6 dB
+                - +6dB: 65381; 0dB: 32768; -inf dB: 0
             -->
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1092"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2184"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="3277"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="6554"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="5461"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="10922"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="7646"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="15292"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="9830"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="19660"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="12015"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="24030"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="14199"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="28398"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="16384"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="32768"/>
             <Op id="MacroSleep" frames="1"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="17476"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="34952"/>
             <!-- Set Transition Source -->
             <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
@@ -154,7 +154,7 @@
                 - LED Wall: Graphics
                 - Stage Screen: Camera 1
                 - Broadcast: Preview
-                - Audio: Fade Master to unity
+                - Audio: Fade Master to +6 dB
             -->
             <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Dip"/>
             <Op id="PreviewInput" mixEffectBlockIndex="3" input="Camera11"/>
@@ -165,19 +165,19 @@
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Dip"/>
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="19661"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="39322"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="21845"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="43690"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="24030"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="48060"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="26214"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="52428"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="28399"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="56798"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="30583"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="61166"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="32768"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="65381"/>
             <Op id="MacroSleep" frames="1"/>
             <!-- Switch Auxes at the black part of the dip; 15 Frames -->
             <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera14"/>
@@ -393,23 +393,23 @@
             <Op id="AutoTransition" mixEffectBlockIndex="0"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Mix"/>
             <Op id="AuxiliaryInput" auxiliaryIndex="5" input="ME1Program"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="28291"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="56582"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="24291"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="48582"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="21427"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="42854"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="18427"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="36854"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="15660"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="31320"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="13660"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="27320"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="11362"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="22724"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="10362"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="20724"/>
             <Op id="MacroSleep" frames="1"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="9362"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="18724"/>
             <!-- Half-way through 30 Frame Dip Transition
                 - Play Video
             -->
@@ -418,41 +418,41 @@
                 - Fade Master to neg-inf
             -->
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="7682"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="15364"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="6427"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="12854"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="5827"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="11654"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="4820"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="9640"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="4320"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="8640"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="3777"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="7554"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="3277"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="6554"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2729"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="5458"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2429"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="4858"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2043"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="4086"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1843"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="3686"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1566"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="3132"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1366"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2732"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1136"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2272"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1036"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="2072"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="706"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="1412"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="306"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="612"/>
             <Op id="MacroSleep" frames="2"/>
-            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="200"/>
+            <Op id="AudioMixerInputGain" input="ExternalXLR" gain="400"/>
             <Op id="MacroSleep" frames="2"/>
             <Op id="AudioMixerInputGain" input="ExternalXLR" gain="0"/>
             <!-- Make extra sure don't show the multiview on ME2 -->
