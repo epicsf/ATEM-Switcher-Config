@@ -236,19 +236,18 @@
             <Op id="TransitionMixRate" mixEffectBlockIndex="1" rate="15"/>
             <Op id="TransitionMixRate" mixEffectBlockIndex="0" rate="15"/>
             <!-- Set Transition Source -->
-            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
             <!-- Transitions:
-                - LED Wall: Black + Video PiP
+                - LED Wall: VTR
                 - Side Screens: Black (Dipping)
                 - Stage Screen: Camera 1
                 - Broadcast: Preview
             -->
-            <Op id="KeyFillInput" mixEffectBlockIndex="3" keyIndex="3" input="Camera15"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Black"/>
-            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Mix"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="3" input="Camera15"/>
+            <Op id="TransitionStyle" mixEffectBlockIndex="3" style="Dip"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="2" style="Mix"/>
             <Op id="PreviewInput" mixEffectBlockIndex="2" input="Black"/>
             <Op id="TransitionStyle" mixEffectBlockIndex="1" style="Dip"/>
@@ -293,7 +292,7 @@
             <!-- Lower Third Off -->
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <!-- Set Transition Source -->
-            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background, Key4"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="3" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="2" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="1" source="Background"/>
             <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key2"/>
